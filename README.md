@@ -1,4 +1,4 @@
-# F1_Quary
+# F1_Query
 
 Delete recored in json tabel :
 
