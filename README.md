@@ -172,3 +172,12 @@ Check the Total count record in tabel based on batch id
     SELECT COUNT(*) AS total_count
     FROM jumio_app_v3_json_record
     WHERE batch_id = 'V3BATCH002';
+
+
+-----------------
+
+Select Query based on WorkflowUID
+
+    SELECT *
+    FROM yourapp_v3_json_record
+    WHERE v3_columns ->> 'WorkflowUID' = '870F54D1-1A6A-44BF-9C71-004D01FF33D7'
