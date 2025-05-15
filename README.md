@@ -4,6 +4,8 @@ Delete recored in json tabel :
 
     delete from jumio_app_v3_json_record where batch_id='V3BATCH001';
 
+    delete from jumio_app_file_exception  where batch_ref ='V3BATCH001';
+
 -----------------------------------------------
 
 Insert recored in select For Downlaoded :
