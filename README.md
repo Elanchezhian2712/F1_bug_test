@@ -63,7 +63,7 @@ JUMIO APP V2 Mapping
 
 JUMIO APP V3 Mapping
 
-    INSERT INTO jumio_app_v3_mapping (
+    INSERT INTO jumio_app_new_v3_mapping (
       id, old_column_name, new_column_name, created_at, user_status, file_name_v2_v3, created_by_id
     ) VALUES
     (1, 'CompletionDate', 'CompletionDate', '2025-05-15 12:50:12.528+05:30', 1, 'V3 Raw 20241228.xlsx', 1),
