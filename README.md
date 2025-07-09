@@ -8,6 +8,8 @@ Delete recored in json tabel :
 
     delete from jumio_app_file_managements where batch_id='V3BATCH001';
 
+    DELETE FROM jumio_app_v3_json_record;
+
 -----------------------------------------------
 
 Alter record :
